@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Media Tracker</string>
+    <string name="synopsis_card_title">Synopsis</string>
 </resources>
