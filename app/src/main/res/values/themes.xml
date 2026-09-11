@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.MediaTracker" parent="Theme.Material3.Dark.NoActionBar">
         <item name="android:colorBackground">#121212</item>
@@ -6,9 +6,7 @@
         <item name="colorOnBackground">#FFFFFF</item>
         <item name="colorOnSurface">#E1E1E1</item>
         <item name="colorPrimary">#BB86FC</item>
-        <item name="fontFamily">@font/syne</item>
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">@font/syne</item>
     </style>
 
     <style name="Theme.MediaTracker" parent="Base.Theme.MediaTracker" />

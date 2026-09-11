@@ -11,4 +11,7 @@
     <string name="genres">Genres</string>
     <string name="publisher">Publisher</string>
     <string name="reading_progress">Reading progress</string>
+    <string name="home_list_item_page_count">%1$dp</string>
+    <string name="book">Book</string>
+    <string name="book_cover_image">Book cover image</string>
 </resources>
