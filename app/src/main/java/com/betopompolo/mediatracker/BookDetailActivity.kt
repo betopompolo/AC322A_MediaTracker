@@ -31,6 +31,8 @@ class BookDetailActivity : AppCompatActivity() {
         binding = BookDetailLayoutBinding.inflate(layoutInflater)
         enableEdgeToEdge()
         setContentView(binding.root)
+        setSupportActionBar(binding.toolbar)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
         val bookId = intent.getStringExtra(BOOK_ID_KEY)
         Log.d("MyTag", "Book id is $bookId")
@@ -61,6 +63,11 @@ class BookDetailActivity : AppCompatActivity() {
         }
 
         updateReadingProgressViews()
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressedDispatcher.onBackPressed()
+        return true
     }
 
     private fun updateReadingProgressViews() {

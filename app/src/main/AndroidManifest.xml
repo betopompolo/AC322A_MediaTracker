@@ -12,12 +12,23 @@
         android:theme="@style/Theme.MediaTracker">
         <activity
             android:name=".BookDetailActivity"
-            android:exported="true"
-            android:windowSoftInputMode="adjustResize">
-        </activity>
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".HomeActivity"
             android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".MovieDetailActivity"
+            android:exported="true"
+            android:label="@string/title_activity_movie_detail"
+            android:theme="@style/Theme.MediaTracker"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

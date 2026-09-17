@@ -14,4 +14,5 @@
     <string name="home_list_item_page_count">%1$dp</string>
     <string name="book">Book</string>
     <string name="book_cover_image">Book cover image</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
 </resources>
